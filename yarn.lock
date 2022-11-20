@@ -1208,7 +1208,7 @@
     js-yaml "^3.8.4"
     superagent "5"
 
-"@hmcts/nodejs-logging@^3.0.0", "@hmcts/nodejs-logging@^3.0.1", "@hmcts/nodejs-logging@^3.0.2":
+"@hmcts/nodejs-logging@^3.0.1", "@hmcts/nodejs-logging@^3.0.2":
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/@hmcts/nodejs-logging/-/nodejs-logging-3.0.4.tgz#82418571e85f0a275e021f53008195accc55e3b9"
   integrity sha512-42JgVVxxMI9JD+lnKkBcwIYAiJM/mIUlSLlqs8uVqnzHG/JdMhg1g6cYWqWc3UIhxl2KS+n8y4bh09nLC47nSA==
@@ -1217,12 +1217,21 @@
     on-finished "^2.3.0"
     winston "^2.4.5"
 
-"@hmcts/properties-volume@^0.0.13":
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/@hmcts/properties-volume/-/properties-volume-0.0.13.tgz#d1baeab407d519505aeb2614fb91632a1a328366"
-  integrity sha512-WTz5KTQG3IXQnNZCb63fR44muNn++GxGWZad0k12iIYsNfgws+dMOw7QwhbuKOMhQ2sSWxNK882ZxchVihZN9w==
+"@hmcts/nodejs-logging@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@hmcts/nodejs-logging/-/nodejs-logging-4.0.4.tgz#83d8757c6e2f28ac68b57c87b35d71f72024a5f2"
+  integrity sha512-VtrVD6ERZKWu/iy17GZXNuFq/MoK0Q8DrEhd5P30WMzsYDrSKBIr3szEV8M3Ht59oaTm3MUA6Az7PldnFWg3Ow==
   dependencies:
-    "@hmcts/nodejs-logging" "^3.0.0"
+    moment "^2.29.4"
+    on-finished "^2.3.0"
+    winston "^2.4.5"
+
+"@hmcts/properties-volume@^0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@hmcts/properties-volume/-/properties-volume-0.0.14.tgz#fb3f1f90d3af8344e54c99be5e8c19ee9793ac1c"
+  integrity sha512-LEG5Nl35qW4jOe88KNCykwsMNqebz7kRU9eyggj7qyKfrecY+xDVrG9t+14Bphnq6DQg/mqG8VI0y5lk9d3u5Q==
+  dependencies:
+    "@hmcts/nodejs-logging" "^4.0.4"
     lodash "^4.17.11"
     path "^0.12.7"
 
@@ -2762,6 +2771,13 @@ axios-debug-log@^0.8.4:
   dependencies:
     "@types/debug" "^4.0.0"
     debug "^4.0.0"
+
+axios@^0.21.1:
+  version "0.21.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
+  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
+  dependencies:
+    follow-redirects "^1.14.0"
 
 axios@^0.26.0:
   version "0.26.0"
@@ -4955,6 +4971,11 @@ fn-args@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/fn-args/-/fn-args-4.0.0.tgz#2e912f7a74c5e9ef25060bd60127d6a8680237a5"
   integrity sha512-M9XSagc92ejQhi+7kjpFPAO59xKbGRsbOg/9dfwSj84DfzB0pj+Q81DVD1pKr084Xf2oICwUNI0pCvGORmD9zg==
+
+follow-redirects@^1.14.0:
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
+  integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
 
 follow-redirects@^1.14.8:
   version "1.14.8"
@@ -7391,6 +7412,11 @@ moment@^2.19.3:
   version "2.29.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
   integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
+
+moment@^2.29.4:
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
 
 ms@2.0.0:
   version "2.0.0"
