@@ -1923,29 +1923,29 @@
   integrity sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==
 
 "@types/nunjucks@^3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@types/nunjucks/-/nunjucks-3.2.1.tgz#02a3ade3dc4d3950029c6466a4034565dba7cf8c"
-  integrity sha512-hUh5HIC7peH+0MvlYU5KM2RydWxG1mBceivHsQGwlelU9zlczLICyJmjMwgjkI3m0+N50n46GVHkw35lIim6LQ==
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/@types/nunjucks/-/nunjucks-3.2.6.tgz#6d6e0363719545df8b9a024279902edf68b2caa9"
+  integrity sha512-pHiGtf83na1nCzliuAdq8GowYiXvH5l931xZ0YEHaLMNFgynpEqx+IPStlu7UaDkehfvl01e4x/9Tpwhy7Ue3w==
 
 "@types/prettier@^2.1.5":
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.4.3.tgz#a3c65525b91fca7da00ab1a3ac2b5a2a4afbffbf"
-  integrity sha512-QzSuZMBuG5u8HqYz01qtMdg/Jfctlnvj1z/lYnIDXs/golxw0fxtRAHd9KrzjR7Yxz1qVeI00o0kiO3PmVdJ9w==
+  version "2.7.3"
+  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.7.3.tgz#3e51a17e291d01d17d3fc61422015a933af7a08f"
+  integrity sha512-+68kP9yzs4LMp7VNh8gdzMSPZFL44MLGqiHWvttYJe+6qnuVr4Ek9wSBQoveqY/r+LwjCcU29kNVkidwim+kYA==
 
 "@types/qs@*":
-  version "6.9.7"
-  resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.9.7.tgz#63bb7d067db107cc1e457c303bc25d511febf6cb"
-  integrity sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==
+  version "6.9.10"
+  resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.9.10.tgz#0af26845b5067e1c9a622658a51f60a3934d51e8"
+  integrity sha512-3Gnx08Ns1sEoCrWssEgTSJs/rsT2vhGP+Ja9cnnk9k4ALxinORlQneLXFeFKOTJMOeZUFD1s7w+w2AphTpvzZw==
 
 "@types/range-parser@*":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
-  integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.7.tgz#50ae4353eaaddc04044279812f52c8c65857dbcb"
+  integrity sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==
 
 "@types/require-directory@^2.1.1":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@types/require-directory/-/require-directory-2.1.2.tgz#c2b405cce36d81946ad1a24580c3821880973d15"
-  integrity sha512-FUG5PJ2rsV2TssSspVZefTR8+wH3Ahr6KdAB6WanLNroSDu0A5ew4WVUxnnGU/E1k6nzip9ZawGAAe/ZqzGn5g==
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@types/require-directory/-/require-directory-2.1.5.tgz#e1124c97b4308b51eda480e20d2f3edcd45b4b2f"
+  integrity sha512-B/kSTngEG3Z9UBW6PzAfduZ4rJVGsjb72e2XWQjqACroSXBZE5NG1A1r9fPx93njitqQwD+FDT6DXMr1shI7XQ==
   dependencies:
     "@types/node" "*"
 
@@ -2762,6 +2762,13 @@ axios-debug-log@^0.8.4:
   dependencies:
     "@types/debug" "^4.0.0"
     debug "^4.0.0"
+
+axios@^0.21.1:
+  version "0.21.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
+  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
+  dependencies:
+    follow-redirects "^1.14.0"
 
 axios@^0.26.0:
   version "0.26.0"
@@ -4955,6 +4962,11 @@ fn-args@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/fn-args/-/fn-args-4.0.0.tgz#2e912f7a74c5e9ef25060bd60127d6a8680237a5"
   integrity sha512-M9XSagc92ejQhi+7kjpFPAO59xKbGRsbOg/9dfwSj84DfzB0pj+Q81DVD1pKr084Xf2oICwUNI0pCvGORmD9zg==
+
+follow-redirects@^1.14.0:
+  version "1.15.3"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.3.tgz#fe2f3ef2690afce7e82ed0b44db08165b207123a"
+  integrity sha512-1VzOtuEM8pC9SFU1E+8KfTjZyMztRsgEfwQl44z8A25uy13jSzTj6dyK2Df52iV0vgHCfBwLhDWevLn95w5v6Q==
 
 follow-redirects@^1.14.8:
   version "1.14.8"
